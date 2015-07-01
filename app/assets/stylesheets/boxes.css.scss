@@ -1,0 +1,27 @@
+.container {
+  width: auto;
+  margin: auto 200px;
+  height: 420px;
+  background-color: lightgrey;
+  padding: 10px;
+  position: relative;
+  .box {
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    border: 1px solid black;
+
+    .title {
+      position: relative;
+      text-align: center;
+      background-color: white;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
